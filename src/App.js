@@ -1,25 +1,12 @@
-import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
 import './App.scss';
+import NavBar from './components/NavBar'
+import HeaderBanner from './components/HeaderBanner'
 
 function App() {
   return (
     <>
-      <Navbar variant="dark">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-        </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-info">Search</Button>
-        </Form>
-      </Navbar>
-
-      <section>
-        <h2>HELLO WORLD</h2>
-      </section>
+      <NavBar />
+      <HeaderBanner />
     </>
   );
 }
