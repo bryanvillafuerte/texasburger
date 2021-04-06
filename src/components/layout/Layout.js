@@ -12,7 +12,7 @@ export default function Layout(props) {
           </Nav>
 
           <Navbar.Brand href="/">
-            <Image src={logo} />
+            <Image src={logo} alt="Saftig dobbel cheeseburger med pommes frites" />
           </Navbar.Brand>
 
           <Nav className="mr-auto nav-right nav-desktop">
