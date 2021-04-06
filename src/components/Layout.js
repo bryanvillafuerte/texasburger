@@ -1,5 +1,5 @@
 import { Navbar, Nav, Image, Container } from 'react-bootstrap'
-import logo from '../../assets/logo/texas-burger-logo.svg'
+import logo from '../assets/logo/texas-burger-logo.svg'
 
 export default function Layout(props) {
   return (
