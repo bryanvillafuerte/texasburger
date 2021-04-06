@@ -44,7 +44,7 @@
 
       .nav-link {
         @include font-size(1.3rem);
-        font-weight: 500;
+        font-weight: 400 !important;
         padding-right: 30px;
         transition: all linear .2s;
 
