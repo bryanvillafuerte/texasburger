@@ -1,13 +1,12 @@
-import './App.scss';
-import NavBar from './components/NavBar'
-import HeaderBanner from './components/HeaderBanner'
+import './styles/App.scss';
+import Layout from './components/layout/Layout'
+import HeaderBanner from './components/headerBanner/HeaderBanner'
 
 function App() {
   return (
-    <>
-      <NavBar />
+    <Layout>
       <HeaderBanner />
-    </>
+    </Layout>
   );
 }
 
