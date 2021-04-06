@@ -1,7 +1,7 @@
 import './styles/App.scss';
-import Layout from './components/layout/Layout'
-import HeaderBanner from './components/headerBanner/HeaderBanner'
-import BurgerSection from './components/burgersection/BurgerSection'
+import Layout from './components/Layout'
+import HeaderBanner from './components/HeaderBanner'
+import BurgerSection from './components/BurgerSection'
 
 function App() {
   return (
