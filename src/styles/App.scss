@@ -1,0 +1,10 @@
+// Bootstrap and custom variables
+@import '../styles/custom-variables';
+@import "~bootstrap/scss/bootstrap";
+
+// Component styles
+@import '../components/layout/layout.scss';
+@import '../components/headerBanner/headerbanner.scss';
+
+// Responsive font size
+@import "../../node_modules/rfs/scss";

@@ -1,0 +1,20 @@
+.headerbanner-outer-container {
+  height: 90vh;
+  background: -webkit-linear-gradient(right, rgba(13, 13, 13, .5), rgba(13, 13, 13, .5)), url(../../assets/images/iStock-617759204.jpg) no-repeat center; content: "";
+  background-size: cover;
+  display: grid;
+
+  .headerbanner-inner-container {
+    align-self: center;
+
+    h1 {
+      @include font-size(5rem);
+      font-weight: 800 !important;
+      margin-bottom: 0;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  
+}
