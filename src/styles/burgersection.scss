@@ -1,0 +1,12 @@
+.burgersection-outer-container {
+  @include padding-top(5rem);
+  @include padding-bottom(5rem);
+
+  .burgersection-inner-container {
+    .burgersection-heading-container {
+      h2 {
+        
+      }
+    }
+  }
+}
