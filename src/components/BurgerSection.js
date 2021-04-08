@@ -1,5 +1,4 @@
 import { Container } from "react-bootstrap";
-
 export default function BurgerSection() {
   return (
     <div className='burgersection-outer-container'>
