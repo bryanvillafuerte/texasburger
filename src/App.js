@@ -2,6 +2,8 @@ import './styles/App.scss';
 import Layout from './components/Layout'
 import HeaderBanner from './components/HeaderBanner'
 import BurgerSection from './components/BurgerSection'
+import BurgerSubSection from './components/BurgerSubSection'
+
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <HeaderBanner />
 
       <BurgerSection />
+      <BurgerSubSection />
+      
     </Layout>
   );
 }
