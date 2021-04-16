@@ -1,4 +1,4 @@
-import { Container, Image } from "react-bootstrap";
+import { Container, Image, Button } from "react-bootstrap";
 import menuburger from '../assets/images/iStock-1188412964.jpg'
 
 export default function MenuSection() {
@@ -16,7 +16,7 @@ export default function MenuSection() {
               <h4>Last ned</h4>
               <h3><span className='text-primary'>V</span>ÅR MENY</h3>
               <p className='lead'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non hendrerit risus, nec dignissim nisl. Cras blandit augue vel sapien molestie tincidunt.</p>
-              <a href="" className='btn btn-primary'>SE MENY</a>
+              <Button variant='primary'>SE MENY</Button>
             </div>
           </div>
         </div>
@@ -26,7 +26,7 @@ export default function MenuSection() {
               <h4>Last ned</h4>
               <h3><span className='text-primary'>V</span>ÅR MENY</h3>
               <p className='lead'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non hendrerit risus, nec dignissim nisl. Cras blandit augue vel sapien molestie tincidunt.</p>
-              <a href="" className='btn btn-primary'>SE MENY</a>
+              <Button variant='primary'>SE MENY</Button>
             </div>
           </div>
         </div>
