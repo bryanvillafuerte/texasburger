@@ -2,7 +2,7 @@ import { Container, InputGroup, FormControl, Button } from "react-bootstrap";
 
 export default function SubscribeSection() {
   return (
-    <div className='subscribe-outer-container'>
+    <div className='subscribe-outer-container' id='abonner'>
       <Container className='subscribe-inner-container'>
         <div className='subscribe-heading'>
           <div div className='line-left'>

@@ -5,7 +5,7 @@ import veggyBurger from '../assets/images/iStock-1024065168.png'
 
 export default function BurgerSection() {
   return (
-    <div className='burgersection-outer-container'>
+    <div className='burgersection-outer-container' id='burger-section'>
       <Container className='burgersection-inner-container'>
         <div className='burgersection-heading-container'>
           <div className='line-left'>
@@ -34,7 +34,7 @@ export default function BurgerSection() {
               <Image src={beefBurger} />
             </div>
             <div className='burgersection-item-text'>
-              <h3 className='text-light'><span className='text-primary'>B</span>eef Burger</h3>
+              <h3 className='text-light'><span className='text-primary'>B</span>iff Burger</h3>
               <p className='lead'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus consequat pretium.</p>
             </div>
           </div>

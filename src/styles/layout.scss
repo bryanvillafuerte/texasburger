@@ -6,11 +6,35 @@
   }
 
   .navbar-brand {
-    width: 240px;
+    width: 200px;
 
     img {
       width: 100%;
     }
+  }
+}
+
+.footer-outer-container {
+  .footer-inner-container {
+    background: #ffffff;
+    @include padding-top(10rem);
+    @include padding-bottom(10rem);
+
+    .col-md-6 {
+      img {
+        width: 80%;
+        padding-bottom: 50px;
+      }
+      
+      .lead {
+        font-weight: 500;
+        @include font-size(1.5rem)
+      }
+    }
+  }
+
+  .copyright {
+    text-align: center;
   }
 }
 
