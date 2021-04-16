@@ -2,8 +2,9 @@ import './styles/App.scss';
 import Layout from './components/Layout'
 import HeaderBanner from './components/HeaderBanner'
 import BurgerSection from './components/BurgerSection'
-import BurgerSubSection from './components/BurgerSubSection'
-
+import MenuSection from './components/MenuSection'
+import HeroSection from './components/HeroSection'
+import SubscribeSection from './components/SubscribeSection'
 
 function App() {
   return (
@@ -11,8 +12,12 @@ function App() {
       <HeaderBanner />
 
       <BurgerSection />
-      <BurgerSubSection />
       
+      <MenuSection />
+
+      <HeroSection />
+
+      <SubscribeSection />
     </Layout>
   );
 }

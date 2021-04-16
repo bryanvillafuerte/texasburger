@@ -4,8 +4,75 @@
 
   .burgersection-inner-container {
     .burgersection-heading-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      @include padding-bottom(5rem);
+
       h2 {
-        
+        @include font-size(3.3rem);
+      }
+
+      .line-left {
+        background-color: #D90416;
+        height: 10px;
+        width: 20%;
+        opacity: 1;
+        justify-self: end !important;
+        align-self: center;
+      }
+
+      .line-right {
+        background-color: #D90416;
+        height: 10px;
+        width: 20%;
+        opacity: 1;
+        justify-self: start;
+        align-self: center;
+      }
+    }
+
+    .burgersection-content-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+
+      .burgersection-item-image {
+        height: 320px;
+
+        img {
+          width: 100%;
+          opacity: .9;
+        }
+      }
+
+      .burgersection-item-text {
+        width: 100%;
+        padding-bottom: 20px;
+
+        h3 {
+          @include font-size(4rem);
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+          text-transform: uppercase;
+        }
+
+        p {
+          @include font-size(1.5rem);
+          font-weight: 700;
+          color: #ffffff;
+          opacity: .5;
+        }
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      .burgersection-content-container {
+        grid-template-columns: repeat(3, 1fr);
+
+        .burgersection-item-text {
+          padding-bottom: 0;
+        }
       }
     }
   }

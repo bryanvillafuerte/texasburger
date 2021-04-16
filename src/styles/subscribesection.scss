@@ -1,0 +1,54 @@
+.subscribe-outer-container {
+  @include padding-top(5rem);
+  @include padding-bottom(5rem);
+
+  .subscribe-inner-container {
+    .subscribe-heading {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      h2 {
+        @include font-size(3.3rem);
+      }
+
+      .line-left {
+        background-color: #D90416;
+        height: 10px;
+        width: 20%;
+        opacity: 1;
+        justify-self: end !important;
+        align-self: center;
+        margin-right: 10px;
+      }
+
+      .line-right {
+        background-color: #D90416;
+        height: 10px;
+        width: 20%;
+        opacity: 1;
+        justify-self: start;
+        align-self: center;
+        margin-left: 10px;
+      }
+    }
+
+    .input-group {
+      .btn-primary {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      .input-group {
+        width: 80%;
+      }
+    }
+
+    @include media-breakpoint-up(xl) {
+      .input-group {
+        width: 50%;
+      }
+    }
+  }
+}
