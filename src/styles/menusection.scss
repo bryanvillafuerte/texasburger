@@ -34,6 +34,14 @@
           padding-left: 50px;
           padding-right: 50px;
           align-self: center;
+          
+          h3 {
+            padding-bottom: 30px;
+          }
+
+          p {
+            padding-bottom: 30px;
+          }
 
           .btn {
             font-weight: 500;
@@ -58,6 +66,19 @@
           }
         }
       }
+    }
+  }
+}
+
+.meny-image-container {
+  display: grid;
+
+  img {
+    justify-self: center;
+    width: 350px;
+
+    @include media-breakpoint-up(lg) {
+      width: 400px;
     }
   }
 }

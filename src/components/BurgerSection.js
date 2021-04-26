@@ -25,7 +25,7 @@ export default function BurgerSection() {
             </div>
             <div className='burgersection-item-text'>
               <h3 className='text-light'><span className='text-primary'>K</span>ylling Burger</h3>
-              <p className='lead'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus consequat pretium.</p>
+              <p className='lead'>Velsmakende og enkel hjemmelaget kyllingburger med blant annet salat, tomat, løk og ost.</p>
             </div>
           </div>
 
@@ -35,7 +35,7 @@ export default function BurgerSection() {
             </div>
             <div className='burgersection-item-text'>
               <h3 className='text-light'><span className='text-primary'>B</span>iff Burger</h3>
-              <p className='lead'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus consequat pretium.</p>
+              <p className='lead'>Jakten på perfekte biff burgere. Denne gangen er det snakk om biffburger med en SUPERGOD asiatisk marinade! Sammen med godt tilbehør vil denne versjonen, skape et smil påmunnen på de fleste.</p>
             </div>
           </div>
           
@@ -45,7 +45,7 @@ export default function BurgerSection() {
             </div>
             <div className='burgersection-item-text'>
               <h3 className='text-light'><span className='text-primary'>V</span>eggy Burger</h3>
-              <p className='lead'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus consequat pretium.</p>
+              <p className='lead'>Sikkelig kraftige hjemmelaget veggieburger. Perfekt med grill smak!</p>
             </div>
           </div>
         </div>
