@@ -61,3 +61,16 @@
     }
   }
 }
+
+.meny-image-container {
+  display: grid;
+
+  img {
+    justify-self: center;
+    width: 350px;
+
+    @include media-breakpoint-up(lg) {
+      width: 400px;
+    }
+  }
+}

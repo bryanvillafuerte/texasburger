@@ -1,4 +1,4 @@
-import { Button, Image } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import grilledburgers from '../assets/images/iStock-1247464704.jpg'
 
 export default function HeroSection() {
@@ -11,11 +11,7 @@ export default function HeroSection() {
               <h3 className='text-center'><span className='text-primary'>B</span>urgere så deilig at du kommer tilbake igjen og igjen.</h3>
             </div>
             <div className='herosection-text'>
-              <p className='lead text-center lead1'>Vi tilbyr bare den beste burgeropplevelsen.</p>
-              <p className='lead text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non hendrerit risus, nec dignissim nisl. Cras blandit augue vel sapien molestie tincidunt.</p>
-              <div className='herosection-cta d-flex'>
-                <Button variant='primary mx-auto'>SE VÅR MENY</Button>
-              </div>
+              <p className='lead text-center lead1'>vi tilbyr den beste burgeropplevelsen, ved å servere deg alt fra kylling, biff, fisk og veggie burgere.</p>
             </div>
           </div>
         </div>
