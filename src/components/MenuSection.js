@@ -43,9 +43,8 @@ export default function MenuSection() {
         <div className='menusection-grid'>
           <div className='menusection-content1'>
             <div className='content'>
-              <h4>Last ned</h4>
               <h3><span className='text-primary'>V</span>ÅR MENY</h3>
-              <p className='lead'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non hendrerit risus, nec dignissim nisl. Cras blandit augue vel sapien molestie tincidunt.</p>
+              <p className='lead'>Vi har mange variasjoner av burgere og kan tilpasse etter deres behov.</p>
               <Button variant='primary' onClick={() => setModalShow(true)}>SE MENY</Button>
             </div>
           </div>
