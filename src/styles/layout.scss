@@ -28,7 +28,16 @@
       
       .lead {
         font-weight: 500;
-        @include font-size(1.5rem)
+        @include font-size(1.5rem);
+
+        a {
+          text-decoration: none;
+          color: #212529;
+
+          &:hover {
+            color: #D90416;
+          }
+        }
       }
     }
   }
