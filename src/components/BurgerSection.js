@@ -35,7 +35,7 @@ export default function BurgerSection() {
             </div>
             <div className='burgersection-item-text'>
               <h3 className='text-light'><span className='text-primary'>B</span>iff Burger</h3>
-              <p className='lead'>Jakten på perfekte biff burgere. Denne gangen er det snakk om biffburger med en SUPERGOD asiatisk marinade! Sammen med godt tilbehør vil denne versjonen, skape et smil påmunnen på de fleste.</p>
+              <p className='lead'>Jakten på perfekte biff burgere. Denne gangen er det snakk om biff burger med en SUPERGOD unik marinade! Sammen med godt tilbehør vil denne versjonen, skape et smil på munnen på de fleste.</p>
             </div>
           </div>
           
@@ -44,8 +44,8 @@ export default function BurgerSection() {
               <Image src={veggyBurger} />
             </div>
             <div className='burgersection-item-text'>
-              <h3 className='text-light'><span className='text-primary'>V</span>eggy Burger</h3>
-              <p className='lead'>Sikkelig kraftige hjemmelaget veggieburger. Perfekt med grill smak!</p>
+              <h3 className='text-light'><span className='text-primary'>V</span>eggie Burger</h3>
+              <p className='lead'>Sikkelig kraftige hjemmelaget veggie burger. Perfekt med grill smak!</p>
             </div>
           </div>
         </div>
