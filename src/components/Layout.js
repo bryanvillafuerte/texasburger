@@ -55,17 +55,17 @@ export default function Layout(props) {
                 </p>
                 <p className='lead'>
                   <MailOutlineIcon className='text-primary' />
-                  &nbsp;&nbsp;hello@texas-burger.no
+                  &nbsp;&nbsp;post@texas-burger.no
                 </p>
                 <p className='lead'>
                   <PhoneIcon className='text-primary' />
-                  &nbsp;&nbsp;+47 966 20 222
+                  &nbsp;&nbsp;+47 998 73 316
                 </p>
                 <p className='lead'>
-                  <FacebookIcon className='text-primary' />
-                  &nbsp;&nbsp;Facebook
-                  &nbsp;&nbsp;<InstagramIcon className='text-primary' />
-                  &nbsp;&nbsp;Instagram
+                  <a href='https://www.facebook.com/texasBurger30' target="_blank" rel="noopener noreferrer"><FacebookIcon className='text-primary' />
+                  &nbsp;&nbsp;Facebook</a>
+                  &nbsp;&nbsp;<a href='https://www.instagram.com/texasburger_30/' target="_blank" rel="noopener noreferrer"><InstagramIcon className='text-primary' />
+                  &nbsp;&nbsp;Instagram</a>
                 </p>
               </Col>
             </Row>
