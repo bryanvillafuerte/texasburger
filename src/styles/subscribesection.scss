@@ -3,6 +3,8 @@
   @include padding-bottom(5rem);
 
   .subscribe-inner-container {
+    display: grid;
+
     .subscribe-heading {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -32,21 +34,24 @@
       }
     }
 
-    .input-group {
+    form {
+      justify-self: center;
+
       .btn-primary {
+        margin-top: 20px;
         padding-left: 30px;
         padding-right: 30px;
-      }
+      }  
     }
 
     @include media-breakpoint-up(lg) {
-      .input-group {
+      form {
         width: 80%;
       }
     }
 
     @include media-breakpoint-up(xl) {
-      .input-group {
+      form {
         width: 50%;
       }
     }
