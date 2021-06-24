@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { Container, Image, Button, Modal } from "react-bootstrap";
 import menuburger from '../assets/images/iStock-1188412964.jpg'
 import menuburger2 from '../assets/images/iStock-1210410416.jpg'
-import meny from '../assets/images/BurgerMenuUtenpris.jpg'
 import menu1 from '../assets/images/menu1.jpg'
 import menu2 from '../assets/images/menu2.png'
 
