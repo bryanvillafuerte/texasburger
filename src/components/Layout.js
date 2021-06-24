@@ -59,7 +59,7 @@ export default function Layout(props) {
                 </p>
                 <p className='lead'>
                   <PhoneIcon className='text-primary' />
-                  &nbsp;&nbsp;+47 998 73 316
+                  &nbsp;&nbsp;+47 915 84 041
                 </p>
                 <p className='lead'>
                   <a href='https://www.facebook.com/texasBurger30' target="_blank" rel="noopener noreferrer"><FacebookIcon className='text-primary' />
