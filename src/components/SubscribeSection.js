@@ -1,4 +1,5 @@
-import { Container, InputGroup, FormControl, Button } from "react-bootstrap";
+import { Container } from "react-bootstrap";
+import KontaktForm from "./KontaktForm";
 
 export default function SubscribeSection() {
   return (
@@ -8,24 +9,15 @@ export default function SubscribeSection() {
           <div div className='line-left'>
             <hr />
           </div>
-          <h2 className='text-light text-center'><span className='text-primary'>A</span>BONNER NÅ</h2>
+          <h2 className='text-light text-center'><span className='text-primary'>T</span>A KONTAKT MED OSS</h2>
           <div className='line-right'>
             <hr />
           </div>
         </div>
 
-        <p className='lead text-light text-center'>Abonner nå for å motta nye tilbud på e-post.</p>
+        <p className='lead text-light text-center'>Gi oss kontaktinformasjonen din så vi kan sende deg fremtidige tilbud og kampanjer.</p>
 
-        <InputGroup className='mx-auto'>
-          <FormControl
-            placeholder="E-post adresse"
-            aria-label="E-post adresse"
-            aria-describedby="basic-addon2"
-          />
-          <InputGroup.Append>
-            <Button variant="primary">Send inn</Button>
-          </InputGroup.Append>
-        </InputGroup>
+        <KontaktForm />
       </Container>
     </div>
   )

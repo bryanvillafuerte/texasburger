@@ -73,12 +73,22 @@
 .meny-image-container {
   display: grid;
 
-  img {
+  .inner-container {
     justify-self: center;
-    width: 350px;
+    display: grid;
+    grid-template-columns: 1fr;
 
     @include media-breakpoint-up(lg) {
-      width: 400px;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    img {
+      justify-self: center;
+      height: 350px;
+  
+      @include media-breakpoint-up(lg) {
+        height: 600px;
+      }
     }
   }
 }
