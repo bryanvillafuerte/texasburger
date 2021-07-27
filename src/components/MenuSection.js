@@ -2,8 +2,8 @@ import { useState } from 'react'
 import { Container, Image, Button, Modal } from "react-bootstrap";
 import menuburger from '../assets/images/iStock-1188412964.jpg'
 import menuburger2 from '../assets/images/iStock-1210410416.jpg'
-import menu1 from '../assets/images/menu1.jpg'
-import menu2 from '../assets/images/menu2.png'
+import menu1 from '../assets/images/burger-meny.jpeg'
+import menu2 from '../assets/images/kylling-meny.jpeg'
 
 function MyVerticallyCenteredModal(props) {
   return (
