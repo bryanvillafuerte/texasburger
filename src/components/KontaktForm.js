@@ -1,5 +1,5 @@
 // import { useForm } from "react-hook-form";
-import { Form, Button } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 
 export default function KontaktForm() {
   /* const { register, handleSubmit, formState: { errors } } = useForm();
